@@ -19,7 +19,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="CapycitySim.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Metal.cpp" />
+    <ClCompile Include="Plastic.cpp" />
+    <ClCompile Include="Solarpanele.cpp" />
+    <ClCompile Include="Wasserkraftwerk.cpp" />
+    <ClCompile Include="Windkraftwerk.cpp" />
+    <ClCompile Include="Wood.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="CapycitySim.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Metal.h" />
+    <ClInclude Include="Plastic.h" />
+    <ClInclude Include="Solarpanele.h" />
+    <ClInclude Include="Wasserkraftwerk.h" />
+    <ClInclude Include="Windkraftwerk.h" />
+    <ClInclude Include="Wood.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
